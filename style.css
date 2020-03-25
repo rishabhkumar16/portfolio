@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(marble.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    transition:ease 0.3s;
+}
+.nav{
+    text-align: right;
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Josefin Sans;
+    margin: 12px;
+    color:black;
+}
+
+
+.i1{
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    width: 220px;
+    height: 200px;
+    transition: all 0.2s;
+    
+}
+.i1:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.header{
+ text-align: center;   
+  /* border: 1px solid black;  */
+  width: fit-content; 
+align-content: center;
+margin: auto;
+}
+.name{
+    font-family: Josefin Sans ;
+    font-size: 30px;
+
+}
+.java{
+    font-family: Josefin Sans;
+    font-size: 18px;
+}
+.b1, .b2, .b3,.b4{
+    border-radius: 50px;
+    font-family: Josefin Sans;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 255, 0);
+    width: 110px;
+    padding: 15px;
+    transition: all 0.3s;
+    box-shadow : 0px 0px 15px gray;  
+}
+.b1{
+    background-color: rgba(93, 93, 238, 0.815);
+}
+.bb1{
+    color: white;
+    text-decoration: none;
+}
+.b2{
+    background-color: rgba(180, 13, 196, 0.815);
+}
+.bb2{
+    color: white;
+    text-decoration: none;
+}
+.b3{
+    background-color: rgba(23, 44, 230, 0.877);
+}
+.bb3{
+    color: white;
+    text-decoration: none;
+}
+.b4{
+    background-color: rgba(180, 13, 196, 0.815);
+}
+.bb4{
+    color: white;
+    text-decoration: none;
+}
+.button{
+    text-align: center;
+    padding: 15px;
+   
+}
+.b1:hover,.b2:hover,.b3:hover,.b4:hover{
+    cursor: pointer;
+    transform: scale(.9);
+    
+}
+.name:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+.head_about,.head_education,.technical_skills,.cert{
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 24px;
+}
+.about{
+    /* border: 1px solid white; */
+    outline: auto rgba(139, 69, 19, 0);
+    width: 100%;
+    margin: auto;
+    font-family: Cutive Mono;
+    font-size: 20px;
+    text-align: center ;
+    padding-bottom: 10px;
+}
+.aboutme, .edu, .tskills, .lc   {
+    border: 1px solid rgba(255, 250, 250, 0);
+    background-color: rgba(139, 69, 19, 0.164);
+}
+.aboutme:hover, .edu:hover, .tskills:hover, .lc:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.clg{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    text-align: center;
+}
+.deg{
+    /* border: 1px solid white; */
+    outline: auto rgba(139, 69, 19, 0);
+    width:100%;
+    margin: auto;
+    font-family: Cutive Mono;
+    font-size: 20px;
+    text-align: center;
+}
+.sk{
+    outline: auto rgba(139, 69, 19, 0);
+    width:100%;
+    margin: auto;
+    font-family: Cutive Mono;
+    font-size: 20px;
+    text-align: center;
+}
+.d{
+    outline: auto rgba(139, 69, 19, 0);
+    width:100%;
+    margin: auto;
+    font-family: Cutive Mono;
+    font-size: 20px;
+    text-align: center;
+}
+
+.social{
+    bottom: 10px;
+    position: relative;
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+}
+.icon{
+    color: black !important;
+    font-size: 25px;
+    margin: 3px;
+}
+.copyright{
+    color: rgba(77, 39, 11, 0.959) !important;
+}
+.up-arrow{
+    text-align: center;
+    position: relative;
+    top: -20px;
+
+    
+}
+.up-arrow a{
+color:  rgba(77, 39, 11, 0.959);
+font-size: 24px;
+}
+@media screen and (max-width:968px){
+    .nav{
+     text-align: center;  
+    }
+
+}
+.b1:hover,.b2:hover,.b3:hover,.b4:hover{
+    cursor: pointer;
+    transform: scale(.9);
+    
+}
